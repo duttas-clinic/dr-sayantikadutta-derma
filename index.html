@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sayantika Dutta | Bespoke Dermatological Care</title>
+    <meta name="description" content="Curated dermatological excellence by Dr. Sayantika Dutta. MBBS, Fellowship British Association of Dermatology. Book your consultation today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link to our new external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Language Toggle -->
+    <div class="lang-toggle" onclick="toggleLanguage()">
+        <i class="fas fa-globe"></i> <span id="langText">EN</span>
+    </div>
+
+    <!-- Emergency Banner -->
+    <div class="emergency-banner">
+        🚨 For urgent skin concerns: <a href="tel:+9198XXXXXXXX">Call +91 98XXX XXXXX</a> (24/7 Emergency Line)
+    </div>
+
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="glow-orb one"></div>
+        <div class="glow-orb two"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="logo">DR. SAYANTIKA DUTTA</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Philosophy</a></li>
+                <li><a href="#services">Expertise</a></li>
+                <li><a href="#quiz">Skin Quiz</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#blog">Journal</a></li>
+                <li><a href="#contact">Consultation</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-content">
+                <img src="logo.png" alt="Dr. Sayantika Dutta 3D Logo" class="monogram-img reveal">
+                <h1 class="hero-title reveal">Dr. Sayantika Dutta</h1>
+                <p class="hero-credentials reveal">MBBS &nbsp;|&nbsp; Fellowship, British Association of Dermatology</p>
+                <p class="hero-tagline reveal">"Curated dermatological excellence in a sanctuary of care."</p>
+                <div class="reveal" style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+                    <a href="#contact" class="btn-luxury gold">Request Consultation</a>
+                    <a href="#services" class="btn-luxury">View Expertise</a>
+                    <a href="#quiz" class="btn-luxury">Take Skin Quiz</a>
+                </div>
+                
+                <!-- Video Welcome -->
+                <div class="video-container reveal" style="width: 100%; max-width: 800px; margin-top: 3rem;">
+                    <div class="video-placeholder" onclick="playVideo()">
+                        <div class="video-play-btn">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="reveal" style="font-style: italic; color: var(--warm-gray); margin-top: 1rem;">Watch: A Message from Dr. Dutta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-panel">
+                <div class="about-visual reveal">
+                    <img src="logo.png" alt="Dr. Sayantika Dutta 3D Logo" class="monogram-img">
+                </div>
+                <div class="about-text reveal">
+                    <h2>The Philosophy</h2>
+                    <p>True dermatological care extends beyond clinical treatment; it is an art of restoration and confidence. Dr. Sayantika Dutta brings world-class expertise to every consultation, seamlessly blending evidence-based British dermatological standards with a deeply personalized approach.</p>
+                    <p>Her practice is designed as a serene sanctuary, where advanced medical technology meets unhurried, compassionate attention. Every treatment plan is meticulously curated to honor the unique biology and aesthetic goals of the individual.</p>
+                    <ul class="credentials-list">
+                        <li>MBBS, Medical Degree</li>
+                        <li>Fellowship, British Association of Dermatology</li>
+                        <li>Advanced Certification in Aesthetic & Laser Medicine</li>
+                        <li>Member, Indian Association of Dermatologists (IADVL)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Areas of Expertise</h2>
+                <p>Bespoke solutions for medical and aesthetic dermatological needs.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100"><path d="M 30 20 Q 50 10 70 20 T 70 50 Q 70 80 30 80 T 30 50 Z" stroke-linecap="round"/><path d="M 40 30 Q 50 25 60 30" stroke-linecap="round"/><path d="M 35 60 Q 50 55 65 60" stroke-linecap="round"/><circle cx="50" cy="45" r="3"/></svg>
+                    </div>
+                    <h3>Clinical Dermatology</h3>
+                    <p>Comprehensive diagnosis and management of complex skin conditions, including eczema, psoriasis, and autoimmune dermatoses, utilizing the latest global protocols.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100"><rect x="45" y="10" width="10" height="30" rx="2"/><circle cx="50" cy="60" r="15"/><line x1="50" y1="75" x2="50" y2="90" stroke-linecap="round"/><line x1="35" y1="60" x2="20" y2="60" stroke-linecap="round"/><line x1="65" y1="60" x2="80" y2="60" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Advanced Laser Therapy</h3>
+                    <p>Precision laser treatments for hair removal, vascular lesions, and pigmentation, administered with an emphasis on safety and optimal skin rejuvenation.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100"><path d="M 30 40 Q 50 20 70 40 T 70 70 Q 50 90 30 70 T 30 40 Z" stroke-linecap="round"/><circle cx="40" cy="50" r="3"/><circle cx="60" cy="55" r="2"/><circle cx="50" cy="65" r="4"/></svg>
+                    </div>
+                    <h3>Acne & Scar Revision</h3>
+                    <p>Targeted, multi-modal therapies to resolve active acne and restore skin texture, minimizing scarring through evidence-based medical and procedural interventions.</p>
+                </div>
+                <div class="service-card reveal" style="transition-delay: 0.3s;">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100"><path d="M 30 30 Q 50 10 70 30 T 70 70 Q 50 90 30 70 T 30 30 Z" stroke-linecap="round"/><path d="M 40 45 Q 45 40 50 45 T 60 45" stroke-linecap="round"/><path d="M 45 60 Q 50 65 55 60" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Aesthetic Rejuvenation</h3>
+                    <p>Subtle, natural-looking anti-aging treatments designed to restore volume, refine contours, and enhance the skin's inherent radiance without altering facial identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Quiz Section -->
+    <section id="quiz" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Discover Your Skin Type</h2>
+                <p>Take our interactive quiz to receive personalized treatment recommendations.</p>
+            </div>
+            <div class="quiz-container reveal">
+                <div class="quiz-progress">
+                    <div class="quiz-progress-bar" id="quizProgress"></div>
+                </div>
+                <div id="quizContent">
+                    <div class="quiz-question" id="questionText">How does your skin feel after cleansing?</div>
+                    <div class="quiz-options" id="quizOptions">
+                        <div class="quiz-option" onclick="selectOption(0)">Tight and dry</div>
+                        <div class="quiz-option" onclick="selectOption(1)">Comfortable and balanced</div>
+                        <div class="quiz-option" onclick="selectOption(2)">Oily in T-zone</div>
+                        <div class="quiz-option" onclick="selectOption(3)">Shiny all over</div>
+                    </div>
+                </div>
+                <div class="quiz-result" id="quizResult" style="display: none;">
+                    <h3>Your Skin Type: <span id="skinType"></span></h3>
+                    <p id="skinDescription"></p>
+                    <a href="#contact" class="btn-luxury gold" style="margin-top: 2rem;">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatment Comparison -->
+    <section id="comparison">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Compare Treatments</h2>
+                <p>Understand which procedure is right for your concerns.</p>
+            </div>
+            <table class="comparison-table reveal">
+                <thead>
+                    <tr>
+                        <th>Treatment</th>
+                        <th>Best For</th>
+                        <th>Sessions</th>
+                        <th>Downtime</th>
+                        <th>Results</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Laser Hair Removal</strong></td>
+                        <td>Unwanted hair</td>
+                        <td>6-8 sessions</td>
+                        <td>None</td>
+                        <td>Permanent reduction</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chemical Peel</strong></td>
+                        <td>Pigmentation, acne</td>
+                        <td>4-6 sessions</td>
+                        <td>2-3 days</td>
+                        <td>Immediate glow</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Anti-Aging Facial</strong></td>
+                        <td>Fine lines, wrinkles</td>
+                        <td>Monthly</td>
+                        <td>None</td>
+                        <td>Gradual improvement</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Acne Scar Treatment</strong></td>
+                        <td>Scar revision</td>
+                        <td>3-5 sessions</td>
+                        <td>5-7 days</td>
+                        <td>60-80% improvement</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Investment in Your Skin</h2>
+                <p>Transparent pricing for exceptional care. All consultations include comprehensive skin analysis.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h3>Initial Consultation</h3>
+                    <div class="price">₹2,500</div>
+                    <p class="price-note">60-minute comprehensive assessment</p>
+                    <ul>
+                        <li>Complete skin analysis</li>
+                        <li>Medical history review</li>
+                        <li>Personalized treatment plan</li>
+                        <li>Product recommendations</li>
+                        <li>Follow-up guidance</li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury">Book Now</a>
+                </div>
+                <div class="pricing-card featured reveal" style="transition-delay: 0.1s;">
+                    <h3>Laser Hair Removal</h3>
+                    <div class="price">₹5,000<span style="font-size: 1rem; color: var(--warm-gray);">/session</span></div>
+                    <p class="price-note">Full body packages available</p>
+                    <ul>
+                        <li>Latest diode laser technology</li>
+                        <li>All skin types treated</li>
+                        <li>Pain-free procedure</li>
+                        <li>Visible results from session 1</li>
+                        <li>Complimentary patch test</li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury gold">Book Now</a>
+                </div>
+                <div class="pricing-card reveal" style="transition-delay: 0.2s;">
+                    <h3>Acne Treatment</h3>
+                    <div class="price">₹8,000<span style="font-size: 1rem; color: var(--warm-gray);">/month</span></div>
+                    <p class="price-note">Customized monthly program</p>
+                    <ul>
+                        <li>Medical-grade peels</li>
+                        <li>LED light therapy</li>
+                        <li>Prescription medications</li>
+                        <li>Scar prevention protocol</li>
+                        <li>Monthly progress reviews</li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury">Book Now</a>
+                </div>
+            </div>
+            <p style="text-align: center; margin-top: 3rem; color: var(--warm-gray); font-style: italic; font-family: 'Cormorant Garamond', serif; font-size: 1.1rem;">
+                * Payment plans available for all treatment packages. EMI options starting at ₹2,000/month.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Transformative Results</h2>
+                <p>Real patients, real results. Each journey is unique and personally curated.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Acne Treatment</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Acne Clearance</h4>
+                        <p>12-week protocol</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Laser Hair Removal</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Permanent Reduction</h4>
+                        <p>6 sessions completed</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Anti-Aging</span>
+                    </div>
+                    <div class="gallery-overlay">
+                        <h4>Skin Rejuvenation</h4>
+                        <p>Combination therapy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>The Skin Journal</h2>
+                <p>Expert insights, treatment guides, and skincare wisdom from Dr. Dutta.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card reveal">
+                    <div class="blog-image">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">Skincare Guide • 5 min read</div>
+                        <h3>Monsoon Skincare: Protecting Your Skin in Humid Weather</h3>
+                        <p>Expert tips on maintaining healthy, glowing skin during Kolkata's monsoon season. Learn about the best products and routines.</p>
+                        <a href="#" class="blog-link" onclick="openModal('blog1')">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card reveal" style="transition-delay: 0.1s;">
+                    <div class="blog-image">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">Treatment Guide • 7 min read</div>
+                        <h3>Retinol 101: Everything You Need to Know</h3>
+                        <p>A comprehensive guide to incorporating retinol into your skincare routine safely and effectively for anti-aging benefits.</p>
+                        <a href="#" class="blog-link" onclick="openModal('blog2')">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-card reveal" style="transition-delay: 0.2s;">
+                    <div class="blog-image">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">Myth Busters • 4 min read</div>
+                        <h3>Laser Hair Removal: Debunking Common Myths</h3>
+                        <p>Separating fact from fiction about laser treatments. Learn what really happens during your session.</p>
+                        <a href="#" class="blog-link" onclick="openModal('blog3')">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Resources -->
+    <section id="resources">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Patient Resources</h2>
+                <p>Comprehensive guides to prepare you for your journey to healthier skin.</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card reveal" onclick="downloadPDF('pre-laser')">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Pre-Laser Treatment Guide</h3>
+                        <p>Essential preparations before your laser session for optimal results and safety.</p>
+                        <span class="resource-link">Download PDF →</span>
+                    </div>
+                </div>
+                <div class="resource-card reveal" style="transition-delay: 0.1s;" onclick="downloadPDF('post-care')">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Post-Treatment Care Instructions</h3>
+                        <p>Comprehensive aftercare protocols to maximize your treatment outcomes.</p>
+                        <span class="resource-link">Download PDF →</span>
+                    </div>
+                </div>
+                <div class="resource-card reveal" style="transition-delay: 0.2s;" onclick="downloadPDF('skincare-routine')">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>Skincare Routine Templates</h3>
+                        <p>Customizable morning and evening routines for different skin concerns.</p>
+                        <span class="resource-link">Download PDF →</span>
+                    </div>
+                </div>
+                <div class="resource-card reveal" style="transition-delay: 0.3s;" onclick="downloadPDF('new-patient')">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="resource-content">
+                        <h3>New Patient Forms</h3>
+                        <p>Complete your medical history and consent forms before your visit.</p>
+                        <span class="resource-link">Download PDF →</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance & Payment -->
+    <section id="insurance" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Insurance & Payment</h2>
+                <p>Making quality dermatological care accessible and affordable.</p>
+            </div>
+            <div class="insurance-grid reveal">
+                <div class="insurance-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Medical Insurance</h4>
+                    <p>Selected plans accepted</p>
+                </div>
+                <div class="insurance-card">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h4>EMI Options</h4>
+                    <p>Starting ₹2,000/month</p>
+                </div>
+                <div class="insurance-card">
+                    <i class="fas fa-percentage"></i>
+                    <h4>Package Discounts</h4>
+                    <p>Save up to 20%</p>
+                </div>
+            </div>
+            <div class="payment-methods reveal">
+                <div class="payment-badge"><i class="fas fa-credit-card"></i> All Major Cards</div>
+                <div class="payment-badge"><i class="fas fa-mobile-alt"></i> UPI Payments</div>
+                <div class="payment-badge"><i class="fas fa-wallet"></i> Digital Wallets</div>
+                <div class="payment-badge"><i class="fas fa-money-bill-wave"></i> Cash Accepted</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyalty Program -->
+    <section id="loyalty">
+        <div class="container">
+            <div class="loyalty-banner reveal">
+                <h3>Loyalty Rewards Program</h3>
+                <p>Earn points with every visit and unlock exclusive benefits</p>
+                <div class="loyalty-features">
+                    <div class="loyalty-feature">
+                        <i class="fas fa-gift"></i>
+                        <h4>Welcome Bonus</h4>
+                        <p>₹500 off your first treatment</p>
+                    </div>
+                    <div class="loyalty-feature">
+                        <i class="fas fa-users"></i>
+                        <h4>Refer & Earn</h4>
+                        <p>500 for every friend referred</p>
+                    </div>
+                    <div class="loyalty-feature">
+                        <i class="fas fa-crown"></i>
+                        <h4>VIP Perks</h4>
+                        <p>Priority booking & exclusive offers</p>
+                    </div>
+                </div>
+                <a href="#contact" class="btn-luxury" style="margin-top: 3rem; background: var(--pearl); color: var(--charcoal);">Join Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gift Cards -->
+    <section id="giftcards" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Gift Cards</h2>
+                <p>The perfect gift for someone special</p>
+            </div>
+            <div class="gift-card-display reveal">
+                <h3>Gift the Gift of Glowing Skin</h3>
+                <p>Choose from our curated gift card denominations</p>
+                <div class="gift-amounts">
+                    <div class="gift-amount" onclick="selectGift(2500)">₹2,500</div>
+                    <div class="gift-amount" onclick="selectGift(5000)">₹5,000</div>
+                    <div class="gift-amount" onclick="selectGift(10000)">₹10,000</div>
+                    <div class="gift-amount" onclick="selectGift(0)">Custom</div>
+                </div>
+                <a href="#contact" class="btn-luxury gold">Purchase Gift Card</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press & Media -->
+    <section id="press">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>As Seen In</h2>
+                <p>Recognized by leading medical and lifestyle publications</p>
+            </div>
+            <div class="press-grid">
+                <div class="press-item reveal">
+                    <i class="fas fa-newspaper"></i>
+                    <h4>The Telegraph</h4>
+                    <p>"Top Dermatologist in Kolkata 2024"</p>
+                </div>
+                <div class="press-item reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-magazine"></i>
+                    <h4>Vogue India</h4>
+                    <p>"Expert Guide to Laser Treatments"</p>
+                </div>
+                <div class="press-item reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h4>NDTV</h4>
+                    <p>"Monsoon Skincare Expert Panel"</p>
+                </div>
+                <div class="press-item reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-book-medical"></i>
+                    <h4>IADVL Journal</h4>
+                    <p>"Published Research on Acne Treatment"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="newsletter-box reveal">
+                <h3>Join Our Newsletter</h3>
+                <p>Receive skincare tips, exclusive offers, and expert insights directly to your inbox</p>
+                <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p style="font-size: 0.85rem; color: var(--warm-gray); margin-top: 1rem;">No spam. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>The Clinic Experience</h2>
+                <p>A sanctuary designed for your comfort, privacy, and ultimate skin health.</p>
+            </div>
+            <div class="experience-grid">
+                <div class="experience-item reveal">
+                    <div class="experience-icon">
+                        <svg viewBox="0 0 100 100"><path d="M 50 20 L 50 80 M 30 40 L 50 20 L 70 40" stroke-linecap="round" stroke-linejoin="round"/><path d="M 20 80 L 80 80" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Bespoke Consultations</h3>
+                    <p>Every visit begins with an unhurried, comprehensive analysis of your skin, lifestyle, and goals, ensuring a treatment plan crafted exclusively for you.</p>
+                </div>
+                <div class="experience-item reveal" style="transition-delay: 0.1s;">
+                    <div class="experience-icon">
+                        <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30"/><circle cx="50" cy="50" r="15"/><circle cx="50" cy="50" r="3"/></svg>
+                    </div>
+                    <h3>State-of-the-Art Facility</h3>
+                    <p>Our clinic houses the latest FDA-approved dermatological and laser technologies, ensuring you receive the safest and most effective treatments available globally.</p>
+                </div>
+                <div class="experience-item reveal" style="transition-delay: 0.2s;">
+                    <div class="experience-icon">
+                        <svg viewBox="0 0 100 100"><path d="M 30 50 Q 50 20 70 50 T 70 80" stroke-linecap="round"/><path d="M 40 50 Q 50 35 60 50 T 60 80" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Uncompromising Privacy</h3>
+                    <p>We understand the deeply personal nature of skin care. Our clinic operates with the utmost discretion, providing a private, serene environment for every patient.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" style="background: rgba(244, 241, 234, 0.3);">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Patient Voices</h2>
+                <p>Trusted by those who seek the highest standard of dermatological care.</p>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-card reveal">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">Dr. Dutta's approach is nothing short of transformative. She took the time to truly understand my skin's history, and the bespoke protocol she designed has given me results I never thought possible. The clinic itself is a haven of calm.</p>
+                    <p class="testimonial-author">— A. Chatterjee, Kolkata</p>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                    <div class="quote-mark">"</div>
+                    <p class="testimonial-text">I have consulted dermatologists across Europe and India, but Dr. Dutta's blend of British clinical rigor and genuine empathy is unparalleled. Her laser treatments are precise, painless, and yielded flawless results.</p>
+                    <p class="testimonial-author">— R. Banerjee, Mumbai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accolades Section -->
+    <section class="accolades-section">
+        <div class="accolades-grid reveal">
+            <div class="accolade-item">
+                <h4>Fellow</h4>
+                <p>British Association of Dermatology</p>
+            </div>
+            <div class="accolade-item">
+                <h4>Member</h4>
+                <p>Indian Association of Dermatologists (IADVL)</p>
+            </div>
+            <div class="accolade-item">
+                <h4>Certified</h4>
+                <p>Advanced Laser & Aesthetic Medicine</p>
+            </div>
+            <div class="accolade-item">
+                <h4>Alumni</h4>
+                <p>Prestigious Medical Institutions</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h2>Begin Your Journey</h2>
+                    <p>We invite you to schedule a private consultation. Our team will ensure your visit is seamless, confidential, and tailored to your needs.</p>
+                    
+                    <div class="contact-detail">
+                        <span class="label">Telephone</span>
+                        <span class="value">+91 98XXX XXXXX</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="label">Electronic Mail</span>
+                        <span class="value">concierge@drsayantika.in</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="label">Clinic Address</span>
+                        <span class="value">No. 123, Health Avenue, Kolkata</span>
+                    </div>
+
+                    <div class="hours-box">
+                        <h4>Operating Hours</h4>
+                        <p><strong>Monday - Saturday:</strong> 10:00 AM - 7:00 PM</p>
+                        <p><strong>Sunday:</strong> By Appointment Only</p>
+                        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gold);"><em>Emergency consultations available 24/7</em></p>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.3!2d88.36!3d22.57!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDM0JzEyLjAiTiA4OMKwMjEnMzYuMCJF!5e0!3m2!1sen!2sin!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel reveal" style="transition-delay: 0.2s;">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Consultation Request - Dr. Sayantika Dutta">
+                        
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="e.g. Ananya Sharma" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. ananya@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Contact Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="+91" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="concern">Area of Concern</label>
+                            <select id="concern" name="concern" class="form-control" required>
+                                <option value="" disabled selected>Select an area of focus...</option>
+                                <option value="clinical">Clinical Skin Condition</option>
+                                <option value="acne">Acne & Scar Revision</option>
+                                <option value="laser">Laser Therapy</option>
+                                <option value="aesthetic">Aesthetic Rejuvenation</option>
+                                <option value="general">General Consultation</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Request Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p>&copy; 2024 Dr. Sayantika Dutta. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem; opacity: 0.7;">MBBS | Fellowship, British Association of Dermatology</p>
+        <p style="margin-top: 1rem; font-size: 0.75rem;">
+            <a href="#" onclick="openModal('privacy')" style="color: var(--warm-gray);">Privacy Policy</a> | 
+            <a href="#" onclick="openModal('terms')" style="color: var(--warm-gray);">Terms of Service</a>
+        </p>
+    </footer>
+
+    <!-- Live Chat Widget -->
+    <div class="chat-widget">
+        <div class="chat-window" id="chatWindow">
+            <div class="chat-header">
+                Chat with Us
+                <i class="fas fa-times" style="float: right; cursor: pointer;" onclick="toggleChat()"></i>
+            </div>
+            <div class="chat-body">
+                <div class="chat-message">
+                    <strong>Clinic Assistant:</strong><br>
+                    Hello! How can we help you today?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message..." id="chatInput">
+                <button onclick="sendChat()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="chat-toggle" onclick="toggleChat()">
+            <i class="fas fa-comments"></i>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9198XXXXXXXX" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <p><strong>We value your privacy</strong></p>
+                <p>We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept", you consent to our use of cookies.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn" onclick="declineCookies()">Decline</button>
+                <button class="cookie-btn accept" onclick="acceptCookies()">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-close" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+            </div>
+            <div id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to our new external JavaScript file -->
+    <script src="script.js" defer></script>
+</body>
+</html>

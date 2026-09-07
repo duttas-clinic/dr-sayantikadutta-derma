@@ -1,0 +1,4 @@
+   User-agent: *
+   Allow: /
+   
+   Sitemap: https://duttas-clinic.github.io/dr-sayantikadutta-derma/sitemap.xml
